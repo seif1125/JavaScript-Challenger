@@ -22,3 +22,4 @@ function addUp(num) {
       initialValue
     );
   }
+  module.exports=addUp;
