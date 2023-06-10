@@ -1,0 +1,13 @@
+{
+  "name": "javascript-challenger",
+  "version": "1.0.0",
+  "description": "javascript challenges",
+  "main": "index.js",
+  "scripts": {  "test": "jest"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.5.0"
+  }
+}
