@@ -1,25 +1,20 @@
- //Create a function that takes a number as an argument. 
-// Add up all the numbers from 1 to the number you passed to the function. 
-// For example, if the input is 4 then your function should return 10 because 1 + 2 + 3 + 4 = 10.
-
-// Examples
-// addUp(4) ➞ 10
-
-// addUp(13) ➞ 91
-
-// addUp(600) ➞ 180300
 
 
 
-function addUp(num) {
-    let numberArray = []; // prepare an array to make our number into step sequence array
-    let initialValue = 0;// set our initial value for summation
-    for (var i = 1; i <= num; i++) {
-      numberArray.push(i); //numbers will be add as [5,4,3,2]etc..
-    }
-    return numberArray.reduce(   //function reduce is a function applied on array which make accumulative function
-      (accumulator, currentvalue) => accumulator + currentvalue,
-      initialValue
-    );
-  }
-  module.exports=addUp;
+function matchHouses(step) {
+	// if we noticed in images of the task description we will find that each time we need to
+	//form more than one match we need for first one 6 matches then second we need 5 
+	//and third we need 5 which means that if we need to make one match 
+	// we follow this eq ((6)x(number of shapes))-(number of shapes-1)
+	
+	if(step>0){
+	return (6*step)-(step-1)
+	}
+	else if(step==0){
+		return 0
+	}
+	else{
+		return 'cannot be negative number'
+	}
+}
+  module.exports=matchHouses;
