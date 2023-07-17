@@ -1,20 +1,14 @@
-// shiftToLeft(5, 2) ➞ 20
+// Test.assertEquals(convert(6), 360)
+// Test.assertEquals(convert(4), 240)
+// Test.assertEquals(convert(8), 480)
+// Test.assertEquals(convert(60), 3600)
 
-// shiftToLeft(10, 3) ➞ 80
+const convert = require('./index.js');
 
-// shiftToLeft(-32, 2) ➞ -128
-
-// shiftToLeft(-6, 5) ➞ -192
-
-// shiftToLeft(12, 4) ➞ 192
-
-// shiftToLeft(46, 6) ➞ 2944
-
-const shiftToLeft = require('./index.js');
-
-describe("addition", () => {
-    test('adding to numbers a,b return a+b', () => {
-   expect(shiftToLeft(10,3)).toBe(80);
+describe("minute conversion", () => {
+    test('adding minutes return seconds', () => {
+   expect(convert(11
+    )).toBe(660);
  
 
     })})

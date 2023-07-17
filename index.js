@@ -1,8 +1,5 @@
-function shiftToLeft(x, y) {
-	
-	let shift=Math.abs(y);
-	let shiftPow=Math.pow(2,shift)
-	return x*shiftPow
-	
+function convert(minutes) {
+	return Math.abs(minutes*60)
+
 }
-  module.exports=shiftToLeft;
+  module.exports=convert;
