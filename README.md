@@ -1,5 +1,5 @@
-<div><p><span>Write a function that takes an integer </span><code>minutes</code><span> and converts it to seconds.</span></p><h3><span>Examples</span></h3><pre><code>convert(5) ➞ 300
+<div><p><span>Create a function that takes an array of numbers and return both the minimum and maximum numbers, in that order.</span></p><h3><span>Examples</span></h3><pre><code>minMax([1, 2, 3, 4, 5]) ➞ [1, 5]
 
-convert(3) ➞ 180
+minMax([2334454, 5]) ➞ [5, 2334454]
 
-convert(2) ➞ 120</code></pre><h3><span>Notes</span></h3><ul><li><span>Don't forget to </span><code>return</code><span> the result.</span></li><li><span>If you get stuck on a challenge, find help in the </span><strong><span>Resources</span></strong><span> tab.</span></li><li><span>If you're </span><em><span>really</span></em><span> stuck, unlock solutions in the </span><strong><span>Solutions</span></strong><span> tab.</span></li></ul></div>
+minMax([1]) ➞ [1, 1]</code></pre><h3><span>Notes</span></h3><p><span>All test arrays will have at least one element and are valid.</span></p></div>
