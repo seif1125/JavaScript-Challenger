@@ -1,5 +1,5 @@
-<div><p><span>Create a function that takes an array of numbers and return both the minimum and maximum numbers, in that order.</span></p><h3><span>Examples</span></h3><pre><code>minMax([1, 2, 3, 4, 5]) ➞ [1, 5]
+<div><p><span>Christmas Eve is almost upon us, so naturally we need to prepare some milk and cookies for Santa! Create a function that accepts a </span><code>Date</code><span> object and returns </span><code>true</code><span> if it's Christmas Eve (December 24th) and </span><code>false</code><span> otherwise. Keep in mind JavaScript's </span><code>Date</code><span> month is 0 based, meaning December is the 11th month while January is 0.</span></p><h3><span>Examples</span></h3><pre><code>timeForMilkAndCookies(new Date(2013, 11, 24)) ➞ true
 
-minMax([2334454, 5]) ➞ [5, 2334454]
+timeForMilkAndCookies(new Date(2013, 0, 23)) ➞ false
 
-minMax([1]) ➞ [1, 1]</code></pre><h3><span>Notes</span></h3><p><span>All test arrays will have at least one element and are valid.</span></p></div>
+timeForMilkAndCookies(new Date(3000, 11, 24)) ➞ true</code></pre><h3><span>Notes</span></h3><ul><li><span>Dates are zero based (see resources).</span></li><li><span>All test cases contain valid dates.</span></li></ul></div>
