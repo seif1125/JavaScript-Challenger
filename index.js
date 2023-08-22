@@ -1,10 +1,4 @@
-function whichIsLarger(f, g) {
-  if (f() > g()) {
-    return 'f'
-  } else if (g() > f()) {
-    return 'g'
-  } else {
-    return 'neither'
-  }
+function calcAge(age) {
+  return age * 365
 }
-module.exports = whichIsLarger
+module.exports = calcAge
