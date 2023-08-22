@@ -1,12 +1,10 @@
-function timeForMilkAndCookies(date) {
-  if (date) {
-    if (date.getMonth() == 11 && date.getDate() == 24) {
-      return true
-    } else {
-      return false
-    }
+function whichIsLarger(f, g) {
+  if (f() > g()) {
+    return 'f'
+  } else if (g() > f()) {
+    return 'g'
   } else {
-    return false
+    return 'neither'
   }
 }
-module.exports = timeForMilkAndCookies
+module.exports = whichIsLarger
